@@ -30,6 +30,7 @@ public class UnLoggedIn extends javax.swing.JFrame {
         btnSignIn = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setPreferredSize(new java.awt.Dimension(1080, 680));
 
         btnSignUp.setText("Sign up");
         btnSignUp.addActionListener(new java.awt.event.ActionListener() {
@@ -50,9 +51,9 @@ public class UnLoggedIn extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(81, Short.MAX_VALUE)
+                .addContainerGap(120, Short.MAX_VALUE)
                 .addComponent(btnSignIn)
-                .addGap(57, 57, 57)
+                .addGap(18, 18, 18)
                 .addComponent(btnSignUp)
                 .addGap(118, 118, 118))
         );
